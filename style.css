@@ -57,28 +57,65 @@ a {
     margin-bottom: 66px;
 }
 
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
+.about {
+    background-color: #F4F4F4;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
-
-.skills {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    box-sizing: ;
-}
-
-.about {}
-
-h2 {
+.heading {
     font-family: Montserrat;
     font-weight: 700;
     font-size: 50px;
     text-align: center;
+    margin-bottom: 64px;
+
+}
+
+.about_content {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    
+    
+}
+
+.skills {
+    display: flex; 
+    flex-wrap: wrap;   
+    justify-content: center;
+    gap: 40px;
+    max-width: 320px;
+    flex-wrap: wrap;
+}
+.skills_item {
+    font-size: 100px;
+    
+}
+.fa-html5 {
+    color: red;
+}
+.fa-css3{
+    color: blue;
+}
+.fa-js{
+    color: orange;
+}
+
+.about_info {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+}
+.about_text {
+font-family: Raleway;
+font-weight: 400;
+font-size: 18px;
+
+line-height: 30px;
+
 
 }
