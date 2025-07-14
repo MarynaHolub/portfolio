@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 540px);
+    padding-right: calc(50% - 540px);
+    /* max-width: 1200px; */
+    /* Максимальная ширина */
+    /* margin: 90px auto; */
+    /* Автоматические отступы слева и справа */
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+}
+
+.header_link {
+    color: white;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.title {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 70px;
+    width: 500px;
+    text-align: center;
+}
+
+.photo {
+    width: 500px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 34px;
+    margin-bottom: 66px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: ;
+}
+
+.about {}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+
+}
