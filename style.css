@@ -167,3 +167,37 @@ a {
     padding-top: 64px;
     padding-bottom: 64px;
 }
+
+.contacts_link {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+.contacts {
+    margin-top: 151px;
+    margin-bottom: 151px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading_contacts {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 36px;
+
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: black;
+}
